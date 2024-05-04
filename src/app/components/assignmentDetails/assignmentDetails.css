@@ -1,0 +1,79 @@
+.assignmentDetails-container {
+  padding: 15px;
+  background-color: white;
+  width: 30vw;
+  height: 70vh;
+  border-radius: 15px;
+}
+
+.edit-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 3px 4px #888888;
+  cursor: pointer;
+}
+
+.status-active {
+  color: #01a862;
+}
+
+.assignmentDetails-content span {
+  font-size: 13px;
+  color: #8593a4;
+  font-weight: 600;
+}
+.assignmentDetails-content a {
+  color: #358cfe;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.btn-common {
+  width: 150px;
+  height: 35px;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 600;
+}
+.btn-shadow {
+  box-shadow: 2px 3px 4px #888888;
+}
+
+.candidates-table {
+  margin-top: 15px;
+  width: 100%;
+  height: 55%;
+  background-color: white;
+  overflow-y: scroll;
+}
+
+tr{
+    line-height: 30px;
+}
+td,
+th {
+  text-align: left;
+}
+
+tbody tr {
+  justify-content: center;
+  cursor: pointer;
+}
+
+.rowIsGray{
+  background-color: #f0f0f0;
+}
+
+tbody tr img {
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+
+tbody tr .mailId {
+  font-size: 15px;
+  font-weight: 500;
+  color: #919dad;
+}

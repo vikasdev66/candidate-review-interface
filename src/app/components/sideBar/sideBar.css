@@ -1,0 +1,72 @@
+.sideBar-container {
+  height: 100vh;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1.6px solid black;
+  width: 15px;
+  height: 15px;
+}
+
+.underLine {
+  /* width: 80%; */
+  border: 2px solid #f2f3f4;
+}
+
+.dashboard-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+}
+
+.add-assignment-container {
+  padding: 15px;
+  background-color: #4ed1c4;
+  width: 200px;
+  height: 210px;
+  border-radius: 15px;
+}
+
+.add {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 27px;
+  height: 27px;
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: x-large;
+  color: #79879c;
+  margin-bottom: 15px;
+}
+
+.btn-new-assignment{
+    background-color: white;
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    font-size: small;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.new-assignment{
+    font-size: large;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.new-assignment-para{
+    font-size: small;
+    color: white;
+}

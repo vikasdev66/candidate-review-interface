@@ -1,0 +1,53 @@
+.candidateDetails-container {
+  padding: 20px;
+  border-radius: 15px;
+  background-color: white;
+  height: 75vh;
+  width: 48vw;
+}
+.candidateDetails-video {
+  width: 50%;
+  height: 100%;
+}
+.candidateDetails {
+  width: 50%;
+}
+.personality div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.personality label {
+  color: #8895a7;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.personality progress {
+  height: 7px;
+}
+
+.candidate-intro {
+  overflow: scroll;
+  height: 42%;
+  margin-bottom: 10px;
+}
+
+.candidate-intro h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.candidate-intro p {
+  font-size: 13px;
+  color: #8f9aad;
+}
+
+.shortlist-container button {
+  border-radius: 5px;
+  height: 30px;
+  width: 200px;
+  color: white;
+  background-color: #1ec3b3;
+  margin-bottom: 10px;
+}
